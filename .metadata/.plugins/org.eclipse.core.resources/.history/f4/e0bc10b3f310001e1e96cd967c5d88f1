@@ -1,0 +1,27 @@
+package Practice;
+class A
+{
+	private int id;
+	void setId(int id,int age)
+	{
+		this.id = id;
+		this.age = age;
+	}
+	
+	int getId()
+	{
+		return id;
+		return age;
+	}
+}
+
+public class Demo28 {
+
+	public static void main(String[] args) {
+		A a = new A();
+		a.setId(100,22);
+		System.out.println(a.getId());
+
+	}
+
+}

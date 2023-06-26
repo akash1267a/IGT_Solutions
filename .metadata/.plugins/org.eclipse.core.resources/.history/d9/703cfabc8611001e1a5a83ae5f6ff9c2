@@ -1,0 +1,63 @@
+package Practice;
+
+interface Univercity
+{
+	//Univercity(){}
+	//int a;
+	//void xyz(){}
+	void exam();
+	void result();
+	
+}
+class IITB implements Univercity
+{
+	public void exam()
+	{
+		//online
+	}
+	public void result()
+	{
+		//mail
+	}
+}
+class IITD implements Univercity
+{
+	public void exam()
+	{
+		//online
+	}
+	public void result()
+	{
+		//web
+	}
+}
+
+class IITM implements Univercity
+{
+	public void exam()
+	{
+		//offline
+	}
+	public void result()
+	{
+		//newspaper
+	}
+}
+
+
+
+
+public class Demo31 {
+
+	public static void main(String[] args) {
+		Univercity iitb = new IITB();
+		Univercity iitd = new IITD();
+		Univercity iitm = new IITM();
+
+		System.out.println("Object of IITB: " + iitb);
+		System.out.println("Object of IITD: " + iitd);
+		System.out.println("Object of IITM: " + iitm);
+
+	}
+
+}

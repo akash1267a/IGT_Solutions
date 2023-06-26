@@ -1,0 +1,73 @@
+package Practice;
+
+class A
+
+
+{​​​​​
+
+
+    A()
+
+
+    {​​​​​
+
+
+        for(int i=0;i<=10;i++)
+
+
+        {​​​​​
+
+
+
+        }​​​​​
+
+
+    }​​​​​
+
+
+}​​​​​
+
+
+class B
+
+
+{​​​​​
+
+
+    B()
+
+
+    {​​​​​
+
+
+        // loan        
+
+
+    }​​​​​
+
+
+}​​​​​
+
+
+class Demo38
+
+
+{​​​​​
+
+
+    public static void main(String args[])
+
+
+    {​​​​​
+
+
+        System.out.println("HI ");
+
+
+    }​​​​​
+
+
+}​​​​​
+
+
+// pc of code is called as Thread

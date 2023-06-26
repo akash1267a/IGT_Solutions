@@ -1,0 +1,20 @@
+package Practice;
+
+interface i
+{
+	
+}
+interface J
+{
+	
+}
+interface K extends I,J
+{
+	
+}
+public class Demo27 {
+	public static void main(String args[]) {
+		C c  = new C();
+		c.xyz();
+	}
+}

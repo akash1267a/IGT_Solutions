@@ -1,0 +1,14 @@
+package Practice;
+import java.util.Scanner;
+
+public class addition {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int a =sc.nextInt("Enter NUmber 1 : ")
+		int b =sc.nextInt("Enter Number 2 :");
+		System.out.println("Their addition is : "+ a+b);
+
+	}
+
+}
